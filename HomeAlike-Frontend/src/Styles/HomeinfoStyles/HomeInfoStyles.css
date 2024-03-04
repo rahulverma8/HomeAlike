@@ -1,0 +1,211 @@
+.homeinfo-maincontainer{
+    background-color: #fff;
+    margin: 2.5%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.homeinfo-imgcontainer{
+    display:flex;
+    margin: 10px 7%;
+    width: 86%;
+    height: 58vh;
+}
+
+.homeinfo-img1{
+    width: 50%;
+    margin-top: 1.5% ;
+    border-radius: 20px;
+    height: 55.5vh;
+}
+
+.homeinfo-subimgcontainer{
+    display:flex;
+    flex-wrap: wrap; 
+    width: 50%;
+}
+
+.homeinfo-img{
+    width: 47%;
+    margin-left: 3%;
+    margin-top:2% ;
+    border-radius: 10px;
+    height: 27.5vh;
+}
+#host-name , .host-add{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+}
+.host-add{
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+.homeinfo-personalInfo{
+    margin: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.booking-btn ,.contact-btn{
+    all: unset;
+    width: 72%;
+    height: 38px;
+    font-size: 1.3rem;
+    background-color: rgb(207, 28, 95);
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.contact-btn{
+    margin: 30px 20px 0 18vw;
+}
+.booking-btn:active ,.contact-btn:active{
+    background-color: rgba(173, 33, 85, 0.767);
+}
+.amenities-form{
+    display: flex;
+}
+.homeinfo-formcontainer{
+    display: flex;
+    width: 80%;
+    margin: 14px 10%;
+}
+.homeinfo-formlabel{
+    all: unset;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.homeinfo-forminput{
+    all: unset;
+    width: 150px;
+    height: 26px;
+    border:  solid 2px black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1.5vw 0 0 4vw;
+}
+.homeinfo-price{
+font-size: 1.4rem;
+margin: 10px 0 15px;
+}
+
+.homeinfo-amenities{
+display: flex;
+flex-direction: column;
+width: 45%;
+margin: 0 0 20px 12%;
+}
+.homeinfo-amenities p{
+    font-size: 1.4rem;
+    margin: 0 0 15px 0%;
+    }
+
+.homeinfo-amenities span{
+    font-size: 1.2rem;
+    margin: 0 0 15px 15%;
+    }
+
+.homeinfo-rulecontainer {
+display: flex;
+flex-direction: column;
+margin: 0 0 20px 10%;
+
+}
+.homeinfo-rulecontainer p{ 
+ 
+    font-size: 1.4rem;
+    margin: 0 0 15px 2%;
+    }
+
+.homeinfo-rulecontainer span ,.homeinfo-reasoncontainer p{
+    display: list-item;
+    list-style-type: disc;
+
+    font-size: 1.2rem;
+    margin: 0 0 12px 10%;
+}
+.homeinfo-reasoncontainer span{
+    
+    font-size: 1.4rem;
+    margin: 10px 0 12px 0;
+}
+.homeinfo-reasoncontainer{
+    display: flex;
+flex-direction: column;
+margin: 0 0 20px 12%;
+}
+
+
+@media (max-width:750px) {
+    
+    .homeinfo-maincontainer{
+        margin: 2.5%;
+        padding: 3% 1%;
+        border-radius: 10px;
+    }
+    .homeinfo-imgcontainer{
+        overflow: auto;
+        flex-direction: row;
+        height: 50vh;
+        width: 86vw;
+        margin: 10px 1%;
+    }
+    .homeinfo-img1,.homeinfo-img{
+        all: unset;
+        width:0;
+        border-radius: 15px;
+    }
+    
+    .homeinfo-subimgcontainer{
+        all: unset;
+        display: flex;
+      flex-direction: row; 
+    } 
+    .homeinfo-img{
+      width: 80vw;
+      margin-left: 20px;
+    }
+    .homeinfo-personalInfo{
+        margin: 30px 6%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #price-container{
+        margin-left: 47%;
+    }
+    .amenities-form{
+        flex-direction: column;
+    }
+    .homeinfo-amenities{
+        margin: 0 0 0 8%;
+    }
+    .homeinfo-formcontainer{
+        margin: 5px 0 20px 10%;
+    }
+    .contact-btn{
+        margin: 15px 10px 0 23vw;
+    }
+    .homeinfo-forminput{
+        margin: 10px 0 10px 30vw;
+    }
+        .homeinfo-formcontainer{
+            display: flex;
+            margin: 14px 10%;
+        }
+        .homeinfo-formlabel{
+            all: unset;
+            font-size: 1.25rem;
+        }
+        .homeinfo-forminput{
+            text-align: start;
+            padding-left: 10px;
+            margin: 10px  0 10px 30vw;
+        }
+        .homeinfo-rulecontainer  ,.homeinfo-reasoncontainer {
+            margin: 0 0 10px 5%;
+        }
+
+    
+}

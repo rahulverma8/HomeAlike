@@ -1,0 +1,128 @@
+
+.homepage-titles{
+ margin: 30px 11%;
+ font-size: 1.3rem;
+}
+.suggestedplace-maincontainer{
+    display: flex;
+    overflow-x: auto;
+    margin: 0px 6%; 
+    width: 94%;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+.feedback-maincontainer::-webkit-scrollbar{
+    display: none;
+}
+.suggestedplace-container{
+    margin-right: 20px;
+    background-color: #fff;
+        flex-shrink: 0;
+        width: 28%;
+        border-radius: 10px;
+}
+.suggestedplace-img{
+margin:  20px 5% 10px 0;
+width: 90%;
+}
+.suggestedplace-title{
+ margin:  0px 10%;   
+}
+
+.value-maincontainer{
+display: flex;
+justify-content: space-around;
+margin-left: 8%;
+width: 84%;
+}
+.value-container{
+    background-color: rgb(104, 27, 100);
+    width: 29%;
+    border-radius: 15px;
+    color: white;
+    
+}
+.value-title{
+    font-size: 3rem;
+}
+.value-subtitle{
+
+    font-size: 1.7rem;
+}
+.value-subcontainer{
+    margin-top: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+    
+}
+.value-subcontainer2{
+font-size: 1.2rem;
+  margin: 20px 10%;  
+}
+.feedback-maincontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+ 
+    margin: 20px 3%;
+    width: 94%;
+}
+.feedback-container{
+        background-color: #fff;
+        width: 22%;
+        border-radius: 15px;
+}
+.feedback-img{
+margin:  20px 5% 10px 0;
+width: 90%;
+}
+.feedback-title{
+ margin:  0px 10%;   
+}
+.feedback-para{
+  margin:  10px 5%;   
+}
+@media (max-width: 875px){
+
+    .feedback-maincontainer{
+        overflow-x: auto;    
+}
+.feedback-container{
+    margin-right: 15px;
+    width: 50%;
+    flex-shrink: 0;
+}
+
+.value-maincontainer{
+    flex-direction: column;  
+}
+.value-container{
+    width: 100%; 
+    margin: 15px 0; 
+}
+.homepage-titles{
+
+    margin: 20px 11%;
+}
+.suggestedplace-container{
+    margin-right: 18px;
+    
+        width: 52%;
+}
+
+.value-subcontainer2{
+    font-size: 1.2rem;
+      margin: 10px 10%;  
+    }
+    .value-subcontainer{
+        margin-top: 10px;
+        
+    }
+    .value-maincontainer{
+        margin-left: 10%;
+        width: 80%;
+        
+    }
+}

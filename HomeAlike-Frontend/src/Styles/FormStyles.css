@@ -1,0 +1,196 @@
+.auth-wrapper{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 17vh;
+
+}
+.authotp-wrapper{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 17vh 0;
+
+}
+.home-wrapper{
+    display: flex;
+    margin: 17vh 0 0;
+   align-self: center;
+   justify-content: center;
+
+
+}
+.home-wrapper2{
+    display: flex;
+   align-self: center;
+   justify-content: center;
+}
+.home-wrapper3{
+    align-self: center;
+   justify-content: center;
+    display: flex;
+    width: 380px;
+   background-color: #fff;
+   font-size: 1.4rem;
+   padding:15px 0 0 0;
+
+}
+.home-inner-wrapper{
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#f8f0f0;
+
+}
+.home-btns{
+    display: inline-block;
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ff6701;
+    width: 50%;
+    height: 33px;
+    color:#fff;
+    font-size: 1.2rem;
+}
+.home-btns:visited {
+    background-color: #0a9111;
+}
+.form{
+    display: grid;
+    padding: 20px;
+    width: 380px;
+    height: 350px; 
+    background-color:#fff;
+}
+.authbtn{
+    display: inline-block;
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ff6701;
+    width: 245px;
+    height: 32px;
+    margin: 3px 0 0 50px;
+    border: 1px solid #ff6701;
+    border-radius: 15px;
+    color:#fff;
+    font-size: 1.2rem;
+    
+}
+.authbtn:active{
+background-color:#ff6701a2;
+}
+
+
+.form label{
+    display: inline-block;
+    all: unset;
+    font-size: 1.2rem;
+    padding: 3px 0 0 40px;
+    
+    
+}
+.form input{
+     all: unset;
+    display: inline-block;
+    width: 230px;
+    height: 28px;
+    margin: 3px 0 0 50px;
+    border:  solid 2px black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#fpass{
+    font-size: 1.05rem;
+    padding-left: 50px;
+    color: blue;
+}
+.auth-link{
+    font-size: 1.1rem;
+    color: blue;
+}
+#warn-message{
+
+    font-size: 1.1rem;
+    color: rgb(241, 10, 10);
+}
+
+.form p{
+    padding-left: 50px;
+}
+
+#auth-otp-label{
+margin: 0 0 0px 20px;
+font-size: 1.5rem;
+}
+#auth-otp-para{
+margin-left: 20px;
+}
+#auth-otp-email{
+    color:blue;
+}
+a:hover, a.active{
+    background: none;
+  }
+
+@media (max-width:600px) {
+
+    .home-wrapper3{  
+        width: 90vw;
+    }
+
+    .home-wrapper{
+        margin: 13vh 3vw 0;
+    }
+    .home-inner-wrapper{
+     width: 90vw;
+    }
+    .authotp-wrapper form{
+        border-radius: 20px;
+        height: 85vw;
+    } 
+
+    .form{
+        width: 90vw;
+        height: 97vw;
+    }
+    .form input{
+        width:70vw;
+        height: 35px;
+        margin: 10px 10px;
+
+    }
+    .form label{
+        padding: 0 15px;
+       
+    }
+    #fpass{
+        font-size: 1.05rem;
+       padding-left: 35px;
+    }
+    .authbtn{
+        margin-left: 24px;
+        width:70vw;
+        height: 35px;
+        margin: 5px 10px;
+    }
+    .form p{
+        padding-left: 2.5vw;
+    }
+    #auth-otp-label{
+       align-self: center;
+       justify-self: center;
+        font-size: 1.3rem;
+        }
+    #auth-otp-para{
+        all: unset;
+        align-self: center;
+       justify-self: center;
+        margin-bottom: 5px;
+        }
+    .btn-spinner{
+            margin: 3px 30vw;
+        }
+}
+

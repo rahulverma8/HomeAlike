@@ -1,0 +1,44 @@
+
+    .container{
+        background-color: "#f0f0f0";
+       margin:8px;
+       padding: 5px;
+    }
+    .title{
+        font-size:19px;
+        padding-left: 10px;
+    }
+    .subTitle{
+        font-size:15px;
+        padding-left: 7px;
+    }
+
+    
+    .maincontainer {
+        background-color: "#fff";
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px
+    };
+    .username {
+        font-size: 21px;
+        margin: 11px;
+        margin-top: -10px
+    }
+    .Icon {
+        justify-content: 'space-between';
+        flex-direction: 'row';
+        margin-top: 30
+    }
+    .settingIcon {
+        margin: 5
+    }
+    .name {
+        font-size: 20
+    }
+    .wishList {
+        justify-content: 'center';
+        align-items: 'center';
+        margin-left: 20
+    };
+

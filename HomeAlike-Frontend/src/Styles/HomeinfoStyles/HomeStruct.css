@@ -1,0 +1,54 @@
+.home-warpper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#homes-title{
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.home-container{
+    
+    width: 30%;
+    height: 50vh;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+#home-img{
+    width: 90%;
+    height: 60%;
+    margin: 15px 5%;
+    
+}
+#homeHost-name{
+    margin: 0px 10%;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.home-attributes{
+    margin: 0px 12%;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+@media (max-width: 875px){
+
+    .home-warpper{
+        flex-direction: column;
+    }
+    .home-container{
+    
+        width: 84%;
+        height: 60vh;
+        margin: 25px 8%;
+        
+    }
+    #home-img{
+        height: 42vh;
+        
+    }
+}
